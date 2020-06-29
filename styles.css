@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.alert {
+    display:none;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.buttonBox {
+    border:5px solid black;
+    border-radius: 1em;
+}
+
+button {
+    text-align: center;
+    margin:1em;
+}
+
+.squareBox {
+    display: flex; 
+    flex-wrap: wrap;
+    margin:2em;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:75px;
+    height:75px;
+    float:left;
+    margin:1em;
+}
+
+.die1 {
+   background-image: url("die1.gif");
+}
+
+.die2 {
+    background-image: url("die2.gif");
+}
+
+.die3 {
+    background-image: url("die3.gif");
+}
+
+.die4 {
+    background-image: url("die4.gif");
+}
+
+.die5 {
+    background-image: url("die5.gif");
+}
+
+.die6 {
+    background-image: url("die6.gif");
+}
