@@ -9,17 +9,22 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 .alert {
     display:none;
-    text-align: center;
+    position: fixed;
+    font-family: Garamond;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 h1 {
     text-align: center;
     font-size: 100px;
     margin-bottom: 30px;
+    font-family: Garamond;
 }
 
 .buttonBox {
@@ -29,6 +34,7 @@ h1 {
 
 button {
     text-align: center;
+    font-family: Garamond;
     margin:1em;
 }
 
